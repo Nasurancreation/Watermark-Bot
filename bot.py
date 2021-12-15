@@ -426,7 +426,7 @@ async def button(bot, cmd: CallbackQuery):
 		await cmd.message.edit(
 			text=Config.USAGE_WATERMARK_ADDER,
 			parse_mode="Markdown",
-			reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("Developer", url="https://t.me/dailydoseyt), InlineKeyboardButton("Support Group", url="https://t.me/Star_Bot_Discussion")], [InlineKeyboardButton("Bots Channel", url="https://t.me/STAR_BOTZ")]]),
+			reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("Developer", url="https://t.me/Star_Bot_Discussion"), InlineKeyboardButton("Support Group", url="https://t.me/Star_Bot_Discussion")], [InlineKeyboardButton("Bots Channel", url="https://t.me/STAR_BOTZ")]]),
 			disable_web_page_preview=True
 		)
 
